@@ -1,0 +1,93 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+}
+
+nav.navbar {
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+    background-color: transparent !important;
+    padding: 0 10%;
+}
+
+a.navbar-brand img {
+    width: 20px;
+    margin-right: 2px;
+    vertical-align: middle;
+}
+
+a.navbar-brand h1 {
+    font-size: 1.3rem;
+    width: auto;
+    display: inline-block;
+    margin: 0;
+}
+
+a.navbar-brand h1:hover, a.navbar-brand h1:focus-visible {
+    color: #ffffff;
+}
+
+a.navbar-brand h1:focus-visible {
+    outline: transparent;
+}
+
+a.navbar-brand{
+    color: #ffffff;
+}
+
+#navbarNav ul.navbar-nav li.nav-item a.nav-link {
+    color: white;
+}
+
+/* CAROUSEL */
+
+section.container.carousel {
+    max-width: 100%;
+    height: auto;  
+    margin: 0;
+    padding: 0;
+}
+
+section.container.carousel article, section.container.carousel article div {
+    padding: 0;
+    margin: 0;
+}
+
+/* QUIENES SOMOS */
+
+section.container.somos {
+    background-color: #000000;
+    height: auto;
+    padding: 2% 10%;
+    margin: 0;
+    max-width: 100%;
+}
+
+section.container.somos h2 {
+    text-align: center;
+    color: #ffffff;
+    padding: 0 0 3%;
+}
+
+section.container.somos span {
+    background-color: #3cbeff;
+    width: 100%;
+    height: 35px;
+    display: block;
+    text-align: center;
+    padding: 1% 0;
+}
+
+section.container.somos span i {
+    color: #ffffff;
+    font-size: 2.3rem;
+}
+
+section.container.somos p {
+    color: #ffffff;
+
+}
