@@ -7,7 +7,7 @@ $(document).ready(function () {
     (tooltipTriggerEl) => new bootstrap.Tooltip(tooltipTriggerEl)
   );
 
-//   smooth scroll
+  //   smooth scroll
   $("a").click(function (event) {
     if (this.hash !== "") {
       event.preventDefault();

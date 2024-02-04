@@ -129,6 +129,11 @@ section.container.destacados h2 {
 
 section.container.destacados .card {
   margin: 0 0 5%;
+  min-height: 335px;
+}
+
+section.container.destacados img.card-img-top {
+  min-height: 140px;
 }
 
 section.container.destacados .card-body {
@@ -193,4 +198,10 @@ footer .redes {
 footer .redes span i.fa-brands {
   font-size: 2rem;
   padding: 0 1%;
+}
+
+footer .redes a i.fa-brands {
+  font-size: 2rem;
+  padding: 0 1%;
+  color: #ffffff;
 }
